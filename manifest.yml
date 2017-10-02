@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: demoxxx
+  buildpack: liberty-for-java
+  path: ./target/demoxxx.zip
+  memory: 512M
+  random-route: true
